@@ -1,8 +1,9 @@
-# Tree-Cover-Type-Prediction
+<p align="center">
+    # Case Study - Tree Cover Type Prediction
+    ### Mark Luo
+    ### 11/03/2019
+</p>
 
-## Case Study - Cover Type Prediction
-### Mark Luo
-### 11/03/2019
 
 ## Exploratory Data Analysis (EDA)
 ### 1.	Describe the dataset and any interesting variables (feel free to include response). (Hint: It may be useful to provide a high-level summary (i.e. descriptive statistics) on the variables)
