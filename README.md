@@ -1,6 +1,6 @@
 # Case Study - Tree Cover Type Prediction
-### Mark Luo
-### 11/03/2019
+- Mark Luo
+- 11/03/2019
 
 
 
