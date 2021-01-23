@@ -1,10 +1,10 @@
 # Tree-Cover-Type-Prediction
 
-Case Study - Cover Type Prediction
-Jiatuan (Mark) Luo
-11/03/2019
+## Case Study - Cover Type Prediction
+### Jiatuan (Mark) Luo
+### 11/03/2019
 
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 1.	Describe the dataset and any interesting variables (feel free to include response). (Hint: It may be useful to provide a high-level summary (i.e. descriptive statistics) on the variables)
 -	The data set consists of 55 columns and  581012 observations. There are 14 quantitative variables and 2 qualitative variables. The qualitative variables Soil_Type and Wilderness_Type are in the form of binary columns (0, 1), each area (observation) is classified into a soil type and wilderness type.
 -	It is very interesting to see the patterns of how different cover types are distributed across areas of different soil and wilderness types.
@@ -25,7 +25,7 @@ o	Cover type 3 dominates soil types 4 and 6.
 -	There is high difference in the ranges of some quantitative variables. We would need to normalize the predictors if we want to use KNN model.
 
 
-Modeling Strategy
+## Modeling Strategy
 1.	 What model(s) are you using and why?
 -	Since we are classifying response into multiple categories,  random forest, KNN, and Naïve Bayes would be some appropriate models we could choose from.
 -	I decided to go with random forest because it is intrinsically suited for multiclass classification, and it works well with a mixture of numerical and categorical features without the need of normalization.
@@ -39,7 +39,7 @@ I used random forest to construct the classification model, here are the steps I
 -	Score the resulting model with test set.
 -	Analyze result with confusion matrix and feature importance chart.
 
-Results
+## Results
 1.	Describe your model results. (Hint: It may be helpful to include tables or graphs)
 -	The model with handpicked parameter scored a accuracy of 95.5 percent, while the cross-validated tuned model scored an accuracy of 80 percent. 
 -	Looking at the confusion matrix, we can see that the model is not good at distinguishing cover types A and B. 
