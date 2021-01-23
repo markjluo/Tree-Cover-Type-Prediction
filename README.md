@@ -1,8 +1,7 @@
-<p align="center">
-    # Case Study - Tree Cover Type Prediction
-    ### Mark Luo
-    ### 11/03/2019
-</p>
+# Case Study - Tree Cover Type Prediction
+### Mark Luo
+### 11/03/2019
+
 
 
 ## Exploratory Data Analysis (EDA)
